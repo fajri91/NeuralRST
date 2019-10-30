@@ -1,6 +1,6 @@
 # NeuralRST
 
-This is the reimplementation (Pytorch) of Transition-based Neural RST Parsing with Implicit Syntax Features, COLING 2018 (https://www.aclweb.org/anthology/C18-1047/)
+This is the reimplementation of Transition-based Neural RST Parsing with Implicit Syntax Features, COLING 2018 (https://www.aclweb.org/anthology/C18-1047/) in Python using Pytorch. The original code can be accessed here: https://github.com/yunan4nlp/NNDisParser and it was implemented in C++ using N3LDG framework.
 
 ## Dependencies 
 1. Python 2.7
