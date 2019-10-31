@@ -19,7 +19,7 @@ I use the NeuroNLP2. Please refer to https://github.com/fajri91/RSTExtractor to 
 
 ## Training ##
 Pease run command </br>
-`python train_rst_parser.py --batch_size=8 --experiment=exp1 --max_edu_size=512 --drop_prob=0.5 --ada_eps=1e-6 --gamma=1e-6`. 
+`python train_rst_parser.py --batch_size=8 --experiment=exp1 --drop_prob=0.5 --ada_eps=1e-6 --gamma=1e-6 --use_dynamic_oracle=1 --start_dynamic_oracle=20`. 
 The example log output is given in folder `experiment`.
 
 With dynamic oracle and syntax feature, we achieve similar result with the original paper: </br>
