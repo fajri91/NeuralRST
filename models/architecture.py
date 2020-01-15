@@ -301,7 +301,7 @@ class MainArchitecture(nn.Module):
                     optimal_actions, optimal_action_id = self.get_oracle_actions(gold_subtrees)
                     optimal_action_ids.append(optimal_action_id)
                     p = random.random()
-                    if self.config.oracle_prob > p:
+                    if p > self.config.oracle_prob:
                         self.move(optimal_actions)
                     else:
                         self.move(predicted_actions)
